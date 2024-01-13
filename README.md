@@ -1,38 +1,26 @@
-# create-svelte
+# Info
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a survey tool, which was created as part of my bachelor thesis, titled "Investigation of the effectiveness of
+sonification in the emotional contextualization of emojis for blind and visually impaired people".
+I created this tool because existing survey tools lacked efficient accessibility features such as for the overall navigation and
+audio file playback.
+The tool was developed for and the accessibility features were tested with visually impaired
+individuals and it was used to collect data on audio recordings for the thesis.
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Project setup
+Also see: https://kit.svelte.dev/docs/creating-a-project
+# How to
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Accessible version available at:
+http://localhost:5173/
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Usable with any desktop device
+- Any screen reader
+- Navigation should be self-explanatory, like a usual survey, however optimized for screen readers.
 
-## Developing
+Version for study participants with good vision:
+http://localhost:5173/sona
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Navigation with mouse
+ 
